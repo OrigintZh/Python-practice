@@ -39,7 +39,8 @@ def find_prime_number(num):
 find_prime_number(100)
 ```
 
-```求斐波那契数
+#求斐波那契数
+```python
 def func(num):
     fib = [1,]
     for i in range(num):
