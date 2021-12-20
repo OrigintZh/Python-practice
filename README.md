@@ -13,13 +13,13 @@ print(Func(10))
 #辗转相除法求最小公倍数
 ```python
 def min_common_divisor(a,b):
-    if a<b:
-        a,b = b,a
-    c = a% b
+    if a < b:
+        a, b = b, a
+    c = a % b
     while(c):
         a = b
         b = c
-        c = a%b
+        c = a % b 
     return b
 
 a = int(input("first number: "))
